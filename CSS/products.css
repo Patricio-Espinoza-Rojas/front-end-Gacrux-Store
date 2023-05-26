@@ -5,13 +5,14 @@
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:1.5rem;
     background-color: var(--black);
-    margin: 0 10rem 0 10rem;
+    
 }
 
 .products .box-container .box{
     text-align: center;
-    border: var(--border);
+    border: 0.3rem solid rgba(255,255,255, .1);
     padding: 2rem;
+    margin: 2rem 2rem 2rem 2rem;
 }
 
 .products .box-container .box .icons a{

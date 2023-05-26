@@ -14,7 +14,7 @@
 }
 
 @media (max-width:768px) {
-    #products_offers {
+    #menu-btn {
         display: inline-block;
     }
 
@@ -51,7 +51,7 @@
     }
 
     .home .content h3{
-        font-size: 4.5rem;
+        font-size: 2.0rem;
     }
 
     .home .content p{

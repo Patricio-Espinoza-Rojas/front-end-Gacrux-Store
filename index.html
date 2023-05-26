@@ -14,23 +14,27 @@
     <link href="/CSS/about.css" rel="stylesheet">
     <link href="/CSS/products_offers.css" rel="stylesheet">
     <link href="/CSS/products.css" rel="stylesheet">
+    <link href="/CSS/review.css" rel="stylesheet">
+    <link href="/CSS/contact.css" rel="stylesheet">
+    <link href="/CSS/blogs.css" rel="stylesheet">
+    <link href="/CSS/footer.css" rel="stylesheet">
     <script src="/js/index.js" type="text/javascript" defer></script>
 </head>
 
 <body>
     <!--header section starts-->
-    <header class="header">
+    <header class="header" id="header">
         <a href="#" class="logo">
             <img src="/Imagenes/logoGacrux_pagina.png" alt="logo gacrux">
         </a>
         <nav class="navbar">
             <a href="#home">Inicio</a>
             <a href="#about">Nosotros</a>
-            <a href="#menu">Productos en Oferta</a>
-            <a href="#products">Nuestros Productos</a>
-            <a href="#review">review</a>
-            <a href="#contact">contact</a>
-            <a href="#blogs">blogs</a>
+            <a href="#products_offers">Ofertas</a>
+            <a href="#products">Productos Destacados</a>
+            <a href="#review">Nuestros Clientes</a>
+            <a href="#contact">Contacto</a>
+            <a href="#blogs">blog</a>
         </nav>
 
         <div class="icons">
@@ -77,7 +81,7 @@
                     <div class="price">$29.500</div>
                 </div>
             </div>
-            <a href="#" class="btn-buy">SEGUIR COMPRANDO</a>
+            <a href="#products" class="btn-buy">SEGUIR COMPRANDO</a>
             <a href="#" class="btn-pay">IR A PAGAR</a>
 
         </div>
@@ -132,15 +136,14 @@
                     Estamos aquí para compartir nuestro conocimiento, inspirarte y ayudarte a descubrir la belleza del
                     universo a través de nuestros productos y servicios de calidad.</p>
                 <p>Bienvenido a nuestra tienda y prepárate para explorar el cosmos con nosotros.</p>
-                <a href="#" class="btn-about">learn more</a>
+                <a href="#" class="btn-about">Más sobre nosotros</a>
             </div>
         </div>
     </section>
 
     <!--about section ends-->
 
-    <!--menu sections starts-->
-    <!--revisar esta seccion-->
+    <!--products offers sections starts-->
     <section class="products_offers" id="products_offers">
 
         <h1 class="heading">Productos e<span>n Oferta</span></h1>
@@ -150,68 +153,68 @@
                 <img src="/Imagenes/filtro_CLS_Svbony.png" alt="">
                 <h3>Filtro CLS Svbony de 1,25"</h3>
                 <div class="price">$30.000 <span>$35.990</span></div>
-                <a href="#" class="btn-products_offers">Añadir al carrito</a>
+                <a href="#" class="fas fa-shopping-cart"></a>
             </div>
 
             <div class="box">
                 <img src="/Imagenes/filtro_lunar_Svbony.png" alt="">
                 <h3>Filtro Lunar Svbony de 1,25"</h3>
                 <div class="price">$25.000 <span>$32.990</span></div>
-                <a href="#" class="btn-products_offers">Añadir al carrito</a>
+                <a href="#" class="fas fa-shopping-cart"></a>
             </div>
 
             <div class="box">
                 <img src="/Imagenes/filtro_UHC_Svbony.png" alt="">
                 <h3>Filtro UHC Svbony de 1,25"</h3>
                 <div class="price">$15.321 <span>$24.990</span></div>
-                <a href="#" class="btn-products_offers">Añadir al carrito</a>
+                <a href="#" class="fas fa-shopping-cart"></a>
             </div>
 
             <div class="box">
                 <img src="/Imagenes/filtro_UVIR_Svbony.png" alt="">
                 <h3>Filtro UV/IR Svbony de 1,25"</h3>
                 <div class="price">$15.321 <span>$20.990</span></div>
-                <a href="#" class="btn-products_offers">Añadir al carrito</a>
+                <a href="#" class="fas fa-shopping-cart"></a>
             </div>
 
             <div class="box">
                 <img src="/Imagenes/Ocular_Celestron_omni12mm.png" alt="">
                 <h3>Ocular 12mm Celestron de 1,25 "</h3>
                 <div class="price">$29.500 <span>$35.990</span></div>
-                <a href="#" class="btn-products_offers">Añadir al carrito</a>
+                <a href="#" class="fas fa-shopping-cart"></a>
             </div>
 
             <div class="box">
-                <img src="/Imagenes/Adaptador telefono economico.jpg" alt="">
+                <img src="/Imagenes/adaptador_telefono_economico.png" alt="">
                 <h3>Porta celular genérico</h3>
                 <div class="price">$15.000 <span>$22.990</span></div>
-                <a href="#" class="btn-products_offers">Añadir al carrito</a>
+                <a href="#" class="fas fa-shopping-cart"></a>
             </div>
 
             <div class="box">
-                <img src="/Imagenes/Ocular Celestron omni de 15 mm.jpg" alt="">
+                <img src="/Imagenes/Ocular_celestron_omni15mm.png" alt="">
                 <h3>Ocular 15mm Celestron de 1,25 "</h3>
                 <div class="price">$29.500 <span>$35.990</span></div>
-                <a href="#" class="btn-products_offers">Añadir al carrito</a>
+                <a href="#" class="fas fa-shopping-cart"></a>
             </div>
 
             <div class="box">
-                <img src="/Imagenes/Ocular Celestron omni de 32 mm.jpg" alt="">
+                <img src="/Imagenes/Ocular_celestron_omni32mm.png" alt="">
                 <h3>Ocular 32mm Celestron de 1,25"</h3>
                 <div class="price">$50.000 <span>$55.990</span></div>
-                <a href="#" class="btn-products_offers">Añadir al carrito</a>
+                <a href="#" class="fas fa-shopping-cart"></a>
             </div>
         </div>
 
     </section>
 
-    <!--menu sections ends-->
+    <!--products offers sections ends-->
 
     <!-- products section stars-->
 
     <sections class="products" id="products">
 
-        <h1 class="heading"> nuestros <span>productos</span></h1>
+        <h1 class="heading"> productos <span>destacados</span></h1>
 
         <div class="box-container">
 
@@ -222,7 +225,7 @@
                     <a href="#" class="fas fa-eye"></a>
                 </div>
                 <div class="image">
-                    <img src="/Imagenes/Ocular Celestron omni de 40 mm.jpg" alt="">
+                    <img src="/Imagenes/Ocular_celestron_omni40mm.png" alt="">
                 </div>
                 <div class="content">
                     <h3>Ocular 40mm Celestron de 1,25"</h3>
@@ -233,7 +236,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                     </div>
-                    <div class="price">$20.000</div>
+                    <div class="price">$50.000</div>
                 </div>
             </div>
 
@@ -244,7 +247,7 @@
                     <a href="#" class="fas fa-eye"></a>
                 </div>
                 <div class="image">
-                    <img src="/Imagenes/Ocular Celestron omni de 4 mm.jpg" alt="">
+                    <img src="/Imagenes/Ocular_celestron_omni4mm.png" alt="">
                 </div>
                 <div class="content">
                     <h3>Ocular 4mm Celestron de 1,25"</h3>
@@ -255,7 +258,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                     </div>
-                    <div class="price">$20.000</div>
+                    <div class="price">$29.500</div>
                 </div>
             </div>
 
@@ -266,7 +269,7 @@
                     <a href="#" class="fas fa-eye"></a>
                 </div>
                 <div class="image">
-                    <img src="/Imagenes/Ocular Celestron omni de 6 mm.jpg" alt="">
+                    <img src="/Imagenes/Ocular_celestron_omni6mm.png" alt="">
                 </div>
                 <div class="content">
                     <h3>Ocular 6mm Celestron de 1,25"</h3>
@@ -277,7 +280,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                     </div>
-                    <div class="price">$20.000</div>
+                    <div class="price">$29.500</div>
                 </div>
             </div>
 
@@ -290,13 +293,157 @@
 
     <section class="review" id="review">
 
+        <h1 class="heading">nuestros <span>clientes</span></h1>
 
+        <div class="box-container">
+
+            <div class="box">
+                <img src="/Imagenes/quote.png" alt="" class="quote">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam animi sit unde temporibus, ab perferendis. Ratione sequi, voluptas earum nobis nihil accusantium quibusdam tempora? Voluptatum cum expedita accusamus in vel?</p>
+                <img src="/Imagenes/Carolina-Cabrera.jpg" class="user" alt="">
+                <h3>Carolina Cabrera</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/Imagenes/quote.png" alt="" class="quote">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam animi sit unde temporibus, ab perferendis. Ratione sequi, voluptas earum nobis nihil accusantium quibusdam tempora? Voluptatum cum expedita accusamus in vel?</p>
+                <img src="/Imagenes/Jhoana-Rivarola.jpg" class="user" alt="">
+                <h3>Jhoana Rivarola</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/Imagenes/quote.png" alt="" class="quote">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam animi sit unde temporibus, ab perferendis. Ratione sequi, voluptas earum nobis nihil accusantium quibusdam tempora? Voluptatum cum expedita accusamus in vel?</p>
+                <img src="/Imagenes/Rodrigo-Rivera.jpg" class="user" alt="">
+                <h3>Rodrigo Rivera</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
 
     </section>
 
     <!-- review section end-->
 
+    <!--contact section starts-->
 
+    <section class="contact" id="contact">
+
+        <h1 class="heading">contá<span>ctanos</span></h1>
+
+        <div class="row">
+
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3490979.161981202!2d-73.57751528149745!3d-31.29934091593417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cea53f8a5121%3A0xfb45954f173c01e7!2sObservatorio%20Astron%C3%B3mico%20Nacional!5e0!3m2!1ses!2scl!4v1685119263623!5m2!1ses!2scl" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <form action="">
+                <h3>Escríbenos</h3>
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="Nombre">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="number" placeholder="Numero Telefonico">
+                </div>
+                <input type="submit" value="ENVIAR" class="btn-contact">
+            </form>
+        </div>
+    </section>
+    <!--contact section ends-->
+
+    <!--blogs section starts-->
+
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading">nuestro <span>blog</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="/Imagenes/Carolina-Cabrera.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">titulo</a>
+                    <span>by admin / 26 may, 2023</span>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum excepturi distinctio tempore beatae voluptatum unde fugit obcaecati, facilis quaerat saepe inventore adipisci, qui, reprehenderit a dicta molestiae magni sint incidunt?</p>
+                    <a href="#" class="btn-blog"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="/Imagenes/portada_gacrux_store.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">titulo</a>
+                    <span>by admin / 26 may, 2023</span>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum excepturi distinctio tempore beatae voluptatum unde fugit obcaecati, facilis quaerat saepe inventore adipisci, qui, reprehenderit a dicta molestiae magni sint incidunt?</p>
+                    <a href="" class="btn-blog"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="/Imagenes/portada_gacrux_store.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">titulo</a>
+                    <span>by admin / 26 may, 2023</span>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum excepturi distinctio tempore beatae voluptatum unde fugit obcaecati, facilis quaerat saepe inventore adipisci, qui, reprehenderit a dicta molestiae magni sint incidunt?</p>
+                    <a href="" class="btn-blog"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--blogs section ends-->
+
+    <section class="footer">
+
+        <div class="share">
+            <p>Contáctanos a nues<span>tras redes sociales</span></p>
+            <a href="https://www.facebook.com/GacruxStore" target="_blank"  class="fab fa-facebook-f"></a>
+            <a href="https://www.instagram.com/gacruxstoreoficial/" target="_blank" class="fab fa-instagram"></a>
+            <a href="https://api.whatsapp.com/send?phone=56966274605&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F6eDUDwFmU%0A%0AVi%20esto%20en%20Facebook...&source_url=https%3A%2F%2Ffb.me%2F6eDUDwFmU&icebreaker=Vi%20esto%20en%20Facebook...&app=facebook&entry_point=post_cta&jid=56966274605%40s.whatsapp.net&show_keyboard=1&show_ad_attribution=1&context=AWA6hOhc7-3VDwNTElKmjhp-SF_OxqsBAAZf3cLm_R2vI-Yl8jc5N8RCx-onybRunN5bbyZaVd0L8g7c1twraBVR8RYaAl9Y-h1wK3yDosqVlHkzJmfHOw_2vT2S7mn8feYi6SDMix_PETn4uxGfnhJb8A_rM73W88wKCK4M3-lAaXcK0lstEa6ERXVTl_t8D-wGr5uCVILPIrP06Nd3WFyyYX0ZfoJAJoF3USDCDyvSaEO7z180Ycec0y9ZXmLarIC1JN7-nUcc1o-I66JF8vH3mUb15sbCcnWXBTLljx61rYtet6xT3pG_ieYNDH89sVh0e7-8v9BJ-5BVx4jbjZIsGNwqK3iaHK6_4GPEgph0jm1xsDiuUWgf3tYl9UVYEW4OnDzV57imp3UlFp_KluZB1gNNyKBDXSZ1Q2-xRdC_JGSSk383eys7WZojIXLwdzLwYv3FtA8&token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjEyNSJ9.eyJleHAiOjE2ODUyMjc5MzMsInBob25lIjoiNTY5NjYyNzQ2MDUiLCJ0ZXh0IjoiRW5sYWNlOlxuaHR0cHM6XC9cL2ZiLm1lXC82ZURVRHdGbVVcblxuVmkgZXN0byBlbiBGYWNlYm9vay4uLiIsInNvdXJjZV91cmwiOiJodHRwczpcL1wvZmIubWVcLzZlRFVEd0ZtVSIsImljZWJyZWFrZXIiOiJWaSBlc3RvIGVuIEZhY2Vib29rLi4uIiwiYXBwIjoiZmFjZWJvb2siLCJlbnRyeV9wb2ludCI6InBvc3RfY3RhIiwiamlkIjoiNTY5NjYyNzQ2MDVcdTAwNDBzLndoYXRzYXBwLm5ldCIsInNob3dfa2V5Ym9hcmQiOjEsInNob3dfYWRfYXR0cmlidXRpb24iOjF9.6tzUA9Lgf9CXpEi2lUsYKuuLLlD3_6v0egn4XIz8WIyhFquMEnuT4HGZtUXeV5NlzSZ0xKQ7fNd-izqoPkiInw&fbclid=IwAR0v_TqnYuYgRyEppBAsNErOYAcDc7Jmoo_hZPTRnvPqDirD4KwidYJ6dWg" target="_blank" class="fab fa-whatsapp"></a>
+        </div>
+
+        <div class="links">
+            <a href="#home">Inicio</a>
+            <a href="#about">Nosotros</a>
+            <a href="#products_offers">Ofertas</a>
+            <a href="#products">Productos Destacados</a>
+            <a href="#review">Nuestros Clientes</a>
+            <a href="#contact">Contacto</a>
+            <a href="#blogs">Blog</a>
+        </div>
+
+        <div class="credit"><p>created by <span>Patricio Espinoza</span> | todos los derechos reservados</p></div>
+
+    </section>
 </body>
 
 </html>

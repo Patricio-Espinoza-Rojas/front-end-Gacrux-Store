@@ -6,7 +6,7 @@
     --main-color:#a88a65;
     --black:#13131a;
     --bg: #F0F8FF;
-    --border: 1rem solid rgba(255,255,255,.3)
+    --border: 1rem solid rgba(255,255,255, .1);
 }
 
 *{
