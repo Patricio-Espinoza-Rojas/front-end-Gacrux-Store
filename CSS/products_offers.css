@@ -1,0 +1,65 @@
+/*css correspondiente a menu*/
+
+.btn-products_offers {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.7rem;
+    color: var(--black);
+    background: var(--main-color);
+    cursor: pointer;
+    border-radius: 99px;
+}
+
+.btn-products_offers:hover {
+    letter-spacing: .2rem;
+    background-color: #866e50;
+}
+
+
+.products_offers .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+    background-color: var(--black);
+}
+
+.products_offers .box-container .box{
+    padding: 5rem;
+    text-align: center;
+    border: var(--border);
+
+}
+
+.products_offers .box-container .box img{
+    height: 10rem;
+}
+
+.products_offers .box-container .box h3{
+    color: #eee;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.products_offers .box-container .box .price{
+    color: #eee;
+    font-size: 2.5rem;
+    padding: .5rem 0;
+}
+
+.products_offers .box-container .box .price span{
+    
+    font-size: 1.5rem;
+    text-decoration:line-through;
+    font-weight: lighter;
+}
+
+.products_offers .box-container .box:hover{
+    background: #eee;
+    
+}
+
+.products_offers .box-container .box:hover > *{
+    color: var(--black);
+}
+
