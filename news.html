@@ -5,16 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Noticias</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <link href="/CSS/style.css" rel="stylesheet">
     <link href="/CSS/header.css" rel="stylesheet">
+    <link href="/CSS/home.css" rel="stylesheet">
     <link href="/CSS/mediaQueries.css" rel="stylesheet">
+    <link href="/CSS/about.css" rel="stylesheet">
+    <link href="/CSS/products_offers.css" rel="stylesheet">
+    <link href="/CSS/products.css" rel="stylesheet">
+    <link href="/CSS/review.css" rel="stylesheet">
+    <link href="/CSS/contact.css" rel="stylesheet">
+    <link href="/CSS/news_home.css" rel="stylesheet">
     <link href="/CSS/footer.css" rel="stylesheet">
-    <link href="/CSS/blog_page.css" rel="stylesheet">
     <script src="/js/index.js" type="text/javascript" defer></script>
 </head>
-
 <body>
     <!--header section starts-->
     <header class="header" id="header">
@@ -22,13 +27,13 @@
             <img src="/Imagenes/logoGacrux_pagina.png" alt="logo gacrux">
         </a>
         <nav class="navbar">
-            <a href="/index.html#inicio">Inicio</a>
-            <a href="/index.html#about">quiénes somos</a>
-            <a href="/index.html#products_offers">Ofertas</a>
-            <a href="/index.html#products">Productos Destacados</a>
-            <a href="/index.html#review">Nuestros Clientes</a>
-            <a href="/index.html#contact">Contacto</a>
-            <a href="/index.html#blogs">Blog</a>
+            <a href="/index.html">Inicio</a>
+            <a href="#about">Quiénes Somos</a>
+            <a href="#products_offers">Ofertas</a>
+            <a href="#products">Productos Destacados</a>
+            <a href="#review">Nuestros Clientes</a>
+            <a href="#contact">Contacto</a>
+            <a href="#blogs">Noticias</a>
         </nav>
 
         <div class="icons">
@@ -83,46 +88,53 @@
     </header>
     <!--header section ends-->
 
-    <!--Blog section stars-->
-    <div class="container-blogPage">
-        <section class="the_page d-flex flex-colum">
-            <h1>Primeras Imágenes Telescopio James Webb</h1>
-            <span class="date">12 Julio, 2022</span>
-            <div class="inner_content">
-                <img src="/Imagenes/NASAs-Webb-Reveals-Cosmic-Cliffs-Glittering-Landscape-of-Star-Birth-2048x1186.jpg">
-                <P><strong>Primeras Imágenes Telescopio James Webb</strong></P>
-                <P><strong>telescopio Webb de la NASA revela los precipicios cósmicos y paisajes resplandecientes de nacimiento estelar</strong></P>
-                
-                <p class="fuente_1">Fuente: https://ciencia.nasa.gov/webb-de-la-nasa-revela-precipicios-cosmicos-y-paisajes-resplandecientes-de-nacimiento-estelar
-                </p>
-                <p>Este paisaje de “montañas” y “valles” salpicados de estrellas brillantes es en realidad el borde de
-                        una región cercana y joven donde se forman estrellas, llamada NGC 3324, en la Nebulosa de Carina.
-                        Esta imagen, capturada en luz infrarroja por el nuevo telescopio espacial James Webb de la NASA,
-                        revela por primera vez regiones de nacimiento estelar que antes eran invisibles. Llamados los
-                        precipicios cósmicos, la imagen aparentemente tridimensional de Webb luce como montañas escarpadas
-                        en una noche iluminada por la Luna. En realidad, es el borde de la cavidad gaseosa gigante que está
-                        dentro de NGC 3324, y los “picos” más altos en esta imagen tienen una altura aproximada de 58 años
-                        luz. La zona cavernosa ha sido tallada en la nebulosa por la intensa radiación ultravioleta y los
-                        vientos estelares de estrellas jóvenes extremadamente grandes y calientes, ubicadas en el centro de
-                        la burbuja, sobre el área que se muestra en esta imagen.
-                        Créditos: NASA, ESA, CSA y STScI
+  <!--news section starts-->
 
-                        El telescopio espacial James Webb de la NASA ha revelado viveros estelares y estrellas individuales
-                        nacientes que antes habían estado ocultos en la Nebulosa de Carina.
+  <section class="news" id="news">
 
-                        Las imágenes de “precipicios cósmicos” muestran las capacidades de las cámaras de Webb para mirar a
-                        través del polvo cósmico, revelando un nuevo aspecto de cómo se forman las estrellas.
+    <h1 class="heading">nuestras <span>Noticias</span></h1>
 
-                        Los objetos en las fases más tempranas y rápidas de la formación estelar son difíciles de capturar,
-                        pero la extrema sensibilidad, la resolución espacial y la capacidad para generar imágenes de Webb le
-                        permiten documentar estos elusivos eventos.
-                </p>
-                <p class="fuenteNasa">FUENTE: NASA.</p>
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="/Imagenes/forma-de-la-via-lactea.jpg" alt="">
             </div>
-        </section>
-    </div>
-    <!--Blog section stars-->
+            <div class="content">
+                <a href="/news2.html" class="title">Parece que la Vía Láctea no tiene la forma que pensábamos</a>
+                <span>FUENTE: abc.es, 23 may, 2023</span>
+                <p>Una bella espiral en rotación con cuatro brazos principales surgiendo de un abultamiento de estrellas.</p>
+                <a href="" class="btn-blog"></a>
+            </div>
+        </div>
 
+        <div class="box">
+            <div class="image">
+                <img src="/Imagenes/web-cumulo-galaxias.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="/news3.html" class="title">Webb consigue observar el nacimiento de un gigantesco cúmulo galáctico</a>
+                <span>FUENTE: abc.es 10 may, 2023</span>
+                <p>Incluso los mayores gigantes fueron alguna vez bebés pequeños e indefensos. Y eso no solo vale para las criaturas vivientes de nuestro minúsculo planeta, sino también para las mismísimas estrellas, galaxias y, como es el caso, cúmulos de galaxias.</p>
+                <a href="" class="btn-blog"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="/Imagenes/NASAs-Webb-Reveals-Cosmic-Cliffs-Glittering-Landscape-of-Star-Birth-2048x1186.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="/news1.html" class="title">Primeras Imágenes Telescopio James Webb
+                </a>
+                <span>FUENTE: NASA. / 12 Julio, 2022</span>
+                <p>Telescopio Webb de la NASA revela los precipicios cósmicos y paisajes resplandecientes de nacimiento estelar.</p>
+                <a href="#" class="btn-blog"></a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--news section ends-->
 
     <!--Footer section stars-->
     <section class="footer">
@@ -136,13 +148,13 @@
         </div>
 
         <div class="links">
-            <a href="/index.html#inicio">Inicio</a>
-            <a href="/index.html#about">quiénes somos</a>
-            <a href="/index.html#products_offers">Ofertas</a>
-            <a href="/index.html#products">Productos Destacados</a>
-            <a href="/index.html#review">Nuestros Clientes</a>
-            <a href="/index.html#contact">Contacto</a>
-            <a href="/index.html#blogs">Blog</a>
+            <a href="#home">Inicio</a>
+            <a href="#about">quiénes somos</a>
+            <a href="#products_offers">Ofertas</a>
+            <a href="#products">Productos Destacados</a>
+            <a href="#review">Nuestros Clientes</a>
+            <a href="#contact">Contacto</a>
+            <a href="#blogs">Noticias</a>
         </div>
 
         <div class="credit">
@@ -151,6 +163,6 @@
 
     </section>
     <!--Footer section stars-->
-</body>
 
+</body>
 </html>

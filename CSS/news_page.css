@@ -1,0 +1,57 @@
+/*En esta pagina van los css de la pagina del blog*/
+*{
+    font-family: open sans,sans-serif;
+}
+
+.container-newsPage h1{
+    text-align: center;
+    font-size: 4rem;
+    padding: 2rem;
+    color: #014576;
+}
+
+.container-newsPage .date{
+    font-size: 1.8rem;
+    display: block;
+    padding-bottom: 1rem;
+    position: relative;
+    left: 18rem;
+    color: #6c6c6c;
+}
+
+.container-newsPage img{
+    width: 130rem; 
+    height: 90rem;
+    display: block;
+    margin: auto;
+}
+
+.container-newsPage p {
+    font-size: 1.8rem;
+    padding-top: 2rem;
+    margin: 0 19rem 0 18rem;
+    text-align: justify;
+    color: #6c6c6c;
+}
+
+.container-newsPage section .inner_content .Astrophysical_Journal{
+    color: #019ad9;
+    text-decoration:underline;
+}
+
+.container-newsPage section .inner_content .Astrophysical_Journal:hover {
+    color: #00CD00;
+}
+.container-newsPage section .inner_content h3{
+    font-size: 2.7rem;
+    padding-top: 2rem;
+    margin: 0 19rem 0 18rem;
+    color: #6c6c6c;
+}
+
+
+.container-newsPage .fuente{
+    padding-bottom: 2rem;
+}
+
+
