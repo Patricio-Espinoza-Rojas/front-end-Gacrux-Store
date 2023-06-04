@@ -1,0 +1,42 @@
+/*En esta pagina van los css de la pagina del blog*/
+*{
+    font-family: open sans,sans-serif;
+    color: #6c6c6c;
+}
+
+.container-blogPage h1{
+    text-align: center;
+    font-size: 4rem;
+    padding: 2rem;
+    color: #014576;
+}
+
+.container-blogPage .date{
+    font-size: 1.8rem;
+    display: block;
+    padding-bottom: 1rem;
+    position: relative;
+    left: 33rem;
+}
+
+.container-blogPage img{
+    width: 100rem; 
+    height: 70rem;
+    display: block;
+    margin: auto;
+}
+
+.container-blogPage p {
+    font-size: 1.8rem;
+    padding-top: 2rem;
+    margin: 0 34rem 0 30rem;
+    text-align: justify;
+}
+
+.container-blogPage .fuenteNasa{
+    padding-bottom: 2rem;
+}
+
+
+
+
